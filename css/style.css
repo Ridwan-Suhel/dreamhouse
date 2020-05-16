@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+/*header start here*/
+header{
+	background: rgb(179,212,255);
+    background: linear-gradient(180deg, rgba(179,212,255,1) 0%, rgba(255,255,255,1) 100%);
+}
+button:hover{
+	opacity: 0.9;
+}
+.top-area{}
+.top-area .wrapper{
+	background: #fff;
+	padding: 15px 0px;
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	float: left;
+	margin-left: 10px;
+}
+.logo img{
+	width: 100%;
+}
+.menu {
+    width: 70%;
+    float: right;
+    margin-top: 18px;
+}
+.menu ul{
+	overflow: hidden;
+	width: 100%;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	margin: 0px 4.3%;
+}
+.menu ul li a{
+	font-size: 16px;
+	color: #4d5f73;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+}
+/*header end here*/
+/*hero start here*/
+.hero-section{}
+.hero-section .hero-bg{
+	background-image: url(../img/hero-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.hero-section .box {
+    width: 27%;
+    background: #333333bf;
+    padding: 30px 0px 25px 35px;
+    box-sizing: border-box;
+    margin-top: 8%;
+    margin-bottom: 19%;
+}
+.hero-section .box h1{
+	font-size: 32px;
+	font-weight: normal;
+	color: #C3D4E8;
+	text-transform: uppercase;
+	line-height: 40px;
+}
+.hero-section .box p{
+	font-size: 18px;
+	color: #C3D4E8;
+	line-height: 24px;
+	margin: 15px 0px;
+}
+.hero-section .box a .header-btn{
+	font-size: 16px;
+	color: #C3D4E8;
+	border: none;
+	border-radius: 4px;
+	outline: none;
+	padding: 10px 24px;
+	background: rgba(0, 0, 0, 0.45);
+	cursor: pointer;
+}
+/*hero end here*/
+/*service section start here*/
+.service-section{
+	padding: 50px 0px;
+}
+.service-section .serv-box{
+	width: 28%;
+	text-align: center;
+	margin: 20px 2.6% 0px 2.6%;
+	float: left;
+	box-sizing: border-box;
+}
+.service-section .serv-box h2{
+	font-size: 27px;
+	color: #3e58799e;
+	font-weight: normal;
+}
+.service-section .serv-box img{
+	width: 100%;
+	display: block;
+	margin: 10px 0px;
+}
+.service-section .serv-box p{
+	font-size: 18px;
+	color: #3e5879;
+	margin: 40px 0px;
+}
+.service-section .serv-box .serv-btn{
+	font-size: 15px;
+	color: #fff;
+	padding: 8px 25px;
+	border: none;
+	border-radius: 4px;
+	outline: none;
+	background: #3E5879;
+	cursor: pointer;
+}
+/*service section end here*/
+/*footer start here*/
+footer{}
+footer .footer-text{
+	text-align: center;
+}
+footer .footer-text p{
+	font-size: 20px;
+	color: #3e5879;
+}
+footer .footer-text p ~ p{
+	font-size: 16px;
+	margin-top: 15px;
+}
+footer .icon{
+	text-align: center;
+	margin-top: 20px;
+}
+footer .icon a{
+	width: 48px;
+	display: inline-block;
+	margin: 0px 5px;
+}
+footer .icon a img{
+	width: 100%;
+}
+/*footer end here*/
